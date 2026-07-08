@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Packet Partners — Managed IT for Dealerships, Hospitality &amp; Local Business</title>
+<meta name="description" content="Packet Partners is a boutique managed IT provider offering networking, cybersecurity, Microsoft 365 administration, and responsive support for dealerships, hospitality, and small businesses.">
+<link rel="icon" type="image/svg+xml" href="assets/icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand" aria-label="Packet Partners home">
+      <img src="assets/icon.svg" alt="" class="brand-mark" width="36" height="36">
+      <span class="brand-word">
+        <span class="brand-packet">PACKET</span><span class="brand-partners">PARTNERS</span>
+      </span>
+    </a>
+
+    <nav class="site-nav" id="siteNav" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#industries">Industries</a>
+      <a href="#plans">Plans</a>
+      <a href="#why">Why Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-cta">
+      <a href="#contact" class="btn btn-ghost btn-sm">Open a Ticket</a>
+      <a href="#contact" class="btn btn-primary btn-sm">Schedule a Consultation</a>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-flow" aria-hidden="true">
+      <svg viewBox="0 0 1440 480" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path id="wave1" class="wave" d="M-100 140 C 120 60, 260 60, 420 140 S 720 220, 880 140 S 1180 60, 1540 140" />
+        <path id="wave2" class="wave wave-accent" d="M-100 240 C 120 160, 260 160, 420 240 S 720 320, 880 240 S 1180 160, 1540 240" />
+        <path id="wave3" class="wave" d="M-100 340 C 120 260, 260 260, 420 340 S 720 420, 880 340 S 1180 260, 1540 340" />
+
+        <circle r="5" fill="var(--light-blue)">
+          <animateMotion dur="9s" repeatCount="indefinite" rotate="auto"><mpath href="#wave1"/></animateMotion>
+        </circle>
+        <circle r="4" fill="var(--white)">
+          <animateMotion dur="12s" begin="-3s" repeatCount="indefinite" rotate="auto"><mpath href="#wave1"/></animateMotion>
+        </circle>
+        <circle r="5" fill="var(--white)">
+          <animateMotion dur="10s" repeatCount="indefinite" rotate="auto"><mpath href="#wave2"/></animateMotion>
+        </circle>
+        <circle r="4" fill="var(--light-blue)">
+          <animateMotion dur="7.5s" begin="-2s" repeatCount="indefinite" rotate="auto"><mpath href="#wave2"/></animateMotion>
+        </circle>
+        <circle r="5" fill="var(--light-blue)">
+          <animateMotion dur="11s" repeatCount="indefinite" rotate="auto"><mpath href="#wave3"/></animateMotion>
+        </circle>
+        <circle r="4" fill="var(--white)">
+          <animateMotion dur="8.5s" begin="-4s" repeatCount="indefinite" rotate="auto"><mpath href="#wave3"/></animateMotion>
+        </circle>
+      </svg>
+    </div>
+
+    <div class="wrap hero-inner">
+      <p class="eyebrow">Managed IT · packetpartners.tech</p>
+      <h1>Business IT that stays<br><span>connected, secure,</span> and supported.</h1>
+      <p class="hero-sub">Packet Partners is the owner-led IT team for dealerships, hotels, restaurants, and local businesses who want enterprise-grade networking and cybersecurity without the enterprise runaround.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Schedule a Consultation</a>
+        <a href="#contact" class="btn btn-outline">Open a Support Ticket</a>
+      </div>
+
+      <div class="trace" role="note" aria-label="Network status summary">
+        <span class="trace-line">$ ping packetpartners.tech</span>
+        <span class="trace-line trace-dim">4 packets transmitted, 4 received, <b>0% loss</b></span>
+        <span class="trace-line trace-dim">avg response time <b>&lt; 1 business hour</b></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOGOS / TRUST STRIP -->
+  <section class="trust-strip">
+    <div class="wrap trust-inner">
+      <p>Built for the businesses that keep their doors open every day</p>
+      <ul>
+        <li>Auto Dealerships</li>
+        <li>Hotels &amp; Resorts</li>
+        <li>Restaurants &amp; Venues</li>
+        <li>Local &amp; SMB Offices</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow eyebrow-dark">What we do</p>
+        <h2>Full-stack IT support, handled by two people who actually pick up the phone.</h2>
+      </div>
+
+      <div class="grid services-grid">
+
+        <article class="card service-card">
+          <span class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><path d="M6 20c4-6 9-6 14 0s10 6 14 0" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="6" cy="20" r="2.6" fill="currentColor"/><circle cx="20" cy="20" r="2.6" fill="currentColor"/><circle cx="34" cy="20" r="2.6" fill="currentColor"/></svg>
+          </span>
+          <h3>Managed IT</h3>
+          <p>Proactive monitoring, patching, and maintenance for every workstation, server, and device on your network — so small problems get fixed before they become closed-for-the-day problems.</p>
+        </article>
+
+        <article class="card service-card">
+          <span class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><path d="M20 5 34 11v9c0 9-6 14.5-14 15-8-.5-14-6-14-15v-9z" stroke="currentColor" stroke-width="3" fill="none" stroke-linejoin="round"/><path d="M14 20l4 4 8-8" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Cybersecurity</h3>
+          <p>Endpoint protection, email filtering, and staff-friendly security policies sized for a dealership or hotel — not a stack built for a Fortune 500 security team.</p>
+        </article>
+
+        <article class="card service-card">
+          <span class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><rect x="6" y="8" width="28" height="18" rx="2.5" stroke="currentColor" stroke-width="3" fill="none"/><path d="M14 32h12M20 26v6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><circle cx="14" cy="17" r="1.8" fill="currentColor"/><circle cx="20" cy="17" r="1.8" fill="currentColor"/><circle cx="26" cy="17" r="1.8" fill="currentColor"/></svg>
+          </span>
+          <h3>Microsoft 365 &amp; Cloud</h3>
+          <p>Setup and administration of Microsoft 365, Entra ID, and Intune — mailboxes, permissions, and devices managed correctly from day one, and kept that way.</p>
+        </article>
+
+        <article class="card service-card">
+          <span class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><path d="M8 26c2-8 6-12 12-12s10 4 12 12" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="20" cy="14" r="3" fill="currentColor"/><circle cx="8" cy="30" r="2.4" fill="currentColor"/><circle cx="32" cy="30" r="2.4" fill="currentColor"/><circle cx="20" cy="32" r="2.4" fill="currentColor"/></svg>
+          </span>
+          <h3>Networking &amp; Wi-Fi</h3>
+          <p>Wired and wireless network design that covers your whole property — guest Wi-Fi, staff networks, and point-of-sale traffic kept fast and properly separated.</p>
+        </article>
+
+        <article class="card service-card">
+          <span class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="3" fill="none"/><path d="M20 12v8l6 4" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Help Desk &amp; Support</h3>
+          <p>A real person answers when your team is stuck — remote support for day-to-day issues, with on-site visits when a problem needs hands on the hardware.</p>
+        </article>
+
+        <article class="card service-card">
+          <span class="service-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><path d="M20 6l12 5v8c0 8-5 13-12 15-7-2-12-7-12-15v-8z" stroke="currentColor" stroke-width="3" fill="none" stroke-linejoin="round"/><path d="M20 15v9M15 19h10" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          </span>
+          <h3>Backup &amp; Business Continuity</h3>
+          <p>Automated backups and a written recovery plan, so a failed drive, a bad storm, or a ransomware attempt costs you a phone call — not your customer data.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- INDUSTRIES -->
+  <section class="section section-alt" id="industries">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow eyebrow-dark">Who we serve</p>
+        <h2>We speak the language of your industry, not just IT.</h2>
+      </div>
+
+      <div class="grid industries-grid">
+        <article class="industry-card">
+          <h3>Automotive Dealerships</h3>
+          <p>DMS uptime, F&amp;I system reliability, showroom and lot Wi-Fi, and secure customer data handling across sales and service.</p>
+        </article>
+        <article class="industry-card">
+          <h3>Hospitality</h3>
+          <p>Guest Wi-Fi that doesn't touch your back office, PCI-aware point-of-sale networks, and support that understands you don't close at 5pm.</p>
+        </article>
+        <article class="industry-card">
+          <h3>Small &amp; Local Businesses</h3>
+          <p>Right-sized IT for teams without an internal department — clear pricing, plain-English advice, and a partner who knows your setup by name.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANS -->
+  <section class="section" id="plans">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow eyebrow-dark">Plans</p>
+        <h2>Straightforward plans. No surprise line items.</h2>
+        <p class="section-sub">Every plan is built around your team size and the systems you already run. These starting prices scale with a real assessment of your environment.</p>
+      </div>
+
+      <div class="grid plans-grid">
+
+        <article class="plan-card">
+          <h3>Packet Core</h3>
+          <p class="plan-price"><span>$129</span>/user/mo</p>
+          <p class="plan-tag">Everyday IT, covered</p>
+          <ul class="plan-list">
+            <li>Help desk &amp; remote support</li>
+            <li>Patch management &amp; monitoring</li>
+            <li>Microsoft 365 administration</li>
+            <li>Basic endpoint protection</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-block">Get Started</a>
+        </article>
+
+        <article class="plan-card plan-card-featured">
+          <p class="plan-badge">Most Popular</p>
+          <h3>Packet Secure</h3>
+          <p class="plan-price"><span>$169</span>/user/mo</p>
+          <p class="plan-tag">Core, plus real security</p>
+          <ul class="plan-list">
+            <li>Everything in Packet Core</li>
+            <li>Advanced threat protection &amp; email filtering</li>
+            <li>Security awareness training</li>
+            <li>Backup &amp; disaster recovery</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary btn-block">Get Started</a>
+        </article>
+
+        <article class="plan-card">
+          <h3>Packet Complete</h3>
+          <p class="plan-price"><span>Custom</span></p>
+          <p class="plan-tag">Multi-site &amp; compliance-ready</p>
+          <ul class="plan-list">
+            <li>Everything in Packet Secure</li>
+            <li>Multi-location network design</li>
+            <li>Compliance &amp; vendor management</li>
+            <li>Dedicated strategic IT reviews</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-block">Talk to Us</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="section section-dark" id="why">
+    <div class="wrap why-inner">
+      <div class="why-copy">
+        <p class="eyebrow">Why Packet Partners</p>
+        <h2>Two founders. One phone number. Zero call centers.</h2>
+        <p>Packet Partners was started by two partners who cover both sides of your IT — the servers, cloud, and identity systems your business runs on, and the network and relationships that keep it all talking to each other.</p>
+
+        <div class="why-founders">
+          <div class="founder">
+            <h4>Systems &amp; Cloud</h4>
+            <p>Servers, Microsoft 365, Entra ID, Intune, and cloud administration.</p>
+          </div>
+          <div class="founder">
+            <h4>Networking &amp; Relationships</h4>
+            <p>Technical networking and the professional kind — the partner who's on-site when it matters.</p>
+          </div>
+        </div>
+      </div>
+
+      <ul class="why-list">
+        <li><strong>Direct access.</strong> You reach the people doing the work, not a rotating support queue.</li>
+        <li><strong>Right-sized plans.</strong> No enterprise contracts built for companies ten times your size.</li>
+        <li><strong>Industry fluent.</strong> We already know how a dealership or hotel network is supposed to run.</li>
+        <li><strong>Built to grow with you.</strong> Your IT partner from your first location to your fifth.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="wrap contact-inner">
+      <div class="contact-copy">
+        <p class="eyebrow eyebrow-dark">Get in touch</p>
+        <h2>Let's talk about your network.</h2>
+        <p>Tell us a bit about your business and what's currently keeping you up at night. We'll follow up within one business day.</p>
+
+        <div class="contact-details">
+          <a href="mailto:hello@packetpartners.tech" class="contact-detail">
+            <span>Email</span>
+            hello@packetpartners.tech
+          </a>
+          <a href="#contact" class="contact-detail">
+            <span>Support</span>
+            Open a Ticket
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/yourFormID" method="POST">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+        </div>
+        <div class="form-row">
+          <label for="business">Business name</label>
+          <input type="text" id="business" name="business" autocomplete="organization">
+        </div>
+        <div class="form-row form-row-split">
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+          <div>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel">
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="industry">Industry</label>
+          <select id="industry" name="industry">
+            <option>Automotive Dealership</option>
+            <option>Hospitality</option>
+            <option>Small / Local Business</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="message">What's going on?</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Schedule a Consultation</button>
+        <p class="form-note" id="formNote">Prefer email? Reach us directly at <a href="mailto:hello@packetpartners.tech">hello@packetpartners.tech</a>.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <a href="#top" class="brand brand-footer">
+      <img src="assets/icon.svg" alt="" class="brand-mark" width="28" height="28">
+      <span class="brand-word">
+        <span class="brand-packet">PACKET</span><span class="brand-partners">PARTNERS</span>
+      </span>
+    </a>
+    <p class="footer-tagline">Connect. Secure. Support.</p>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="#services">Services</a>
+      <a href="#industries">Industries</a>
+      <a href="#plans">Plans</a>
+      <a href="#why">Why Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p class="footer-copy">© <span id="year"></span> Packet Partners. packetpartners.tech</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
