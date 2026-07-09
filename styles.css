@@ -152,7 +152,7 @@ button { font-family: inherit; }
   flex-shrink: 0;
 }
 
-.brand-mark { border-radius: 8px; }
+.brand-mark { border-radius: 8px; background: var(--navy); object-fit: cover; }
 
 .brand-word {
   display: flex;
